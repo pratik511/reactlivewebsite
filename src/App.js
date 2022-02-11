@@ -28,7 +28,7 @@ function App() {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!name) {
-      showAlert(true, "danger", "Please Enter Value");
+      showAlert(true, "danger", "Please Enter Valuess");
     } else if (name && isEditing) {
       setList(
         list.map((item) => {
